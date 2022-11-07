@@ -16,7 +16,7 @@ This action will delete all the releases and keep only the `N` latest ones.
 
 ```
 - name: Clean Old Releases
-  uses: vincent-caraccio/clean-old-releases@v1.0.2
+  uses: vincent-caraccio/clean-old-releases@v1.0.4
   with:
     token: ${{ secrets.GITHUB_TOKEN }} # No need to create it
     keep_count: 5
