@@ -45,7 +45,7 @@ async function getSortedReleases(octokit, owner, repo) {
   return data.sort((a, b) => {
     const versionA = getVersion(a);
     const versionB = getVersion(b);
-    return compareVersions(versionA, versionB);
+    return compareVersions(versionB, versionA); // Reverse order
   });
 }
 
