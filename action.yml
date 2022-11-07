@@ -1,0 +1,12 @@
+name: 'Clean Old Releases'
+description: 'Keep only the last N releases'
+inputs:
+  token:
+    name: 'Token'
+    required: true
+  keep_count:
+    name: 'Number of releases to keep'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
