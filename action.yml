@@ -8,5 +8,5 @@ inputs:
     name: 'Number of releases to keep'
     required: true
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'

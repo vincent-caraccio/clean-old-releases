@@ -1,6 +1,6 @@
 {
   "name": "clean-old-releases",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/vincent-caraccio/clean-old-releases#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1"
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
   }
 }
